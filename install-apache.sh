@@ -7,8 +7,8 @@ yum update -y
 yum install -y httpd.x86_64
 
 #Start and Enable Apache Web Server
-systemctl start httpd.service
-systemctl enable httpd.service
+systemctl start httpd
+systemctl enable httpd
 
 #Adds our custom webpage html code to "index.html" file.
-echo "<html><body><h1>Welcome to REX TECH!</h1></body><html>" > /var/www/html/index.html
+echo "<html><body><h1>Welcome to DevOps Class</h1></body><html>" > /var/www/html/index.html
